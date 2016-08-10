@@ -1,6 +1,6 @@
 # install protobuf from source
 # TODO: Create an actual debian package instead of this hot mess of shit
-FROM debian:latest
+FROM ubuntu:14.04
 
 RUN apt-get update && \
     apt-get -y install unzip wget git
